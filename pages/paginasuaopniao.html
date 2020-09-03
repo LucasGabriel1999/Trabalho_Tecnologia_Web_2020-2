@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> 
+        <title>Contact</title>
+        
+        <meta charset="UTF-8">
+        <meta name="author" content="Lucas Gabriel">
+        <meta name="description " content="Criação de site">
+        <meta name="keywords" content="sites, web, desenvolvimento">
+        <link rel="stylesheet" type="text/css" href="../css/estiloindex.css">
+        <link rel="stylesheet" type="text/css" href="../css/estilosuaopniao.css">
+        <script type="text/javascript" src="../js/dataFooter.js"></script>
+        <link rel="short icon" href="../images/b.png">
+
+    
+    </head>
+
+    <body onload="mostrarData()">
+        <a name="topo"></a>
+        <div id="interface">
+            <header id="titulo"> <!--Cabeçalho-->
+                <h1>Deixe sua opinião...</h1>
+                <section id="secmenu">
+                    <nav id="menu">
+                        <ol>
+                            <li><a href="home.html">Home</a></li>
+                            <p>.</p>
+                            <li><a href="paginabridgertons.html">Os Bridgertons</a></li>
+                            <p>.</p>
+                            <li><a href="paginalivros.html">Livros</a></li>
+                            <p>.</p>
+                            <li><a href="paginajulia.html">Julia</a>
+                            <p>.</p>
+                            <li><a href="paginacasais.html">Casais</a></li>
+                            <p>.</p>
+                            <li><a href="paginalondres.html">Londres</a></li><li>
+                            <p>.</p>
+                            <li><a href="paginanetflix.html">Netflix</a></li>
+                            <p>.</p>
+                            <li><a href="paginacronologia.html">Cronologia</a></li>
+                            <p>.</p>
+                            <li><a href="paginacolecoes.html">Coleções</a></li><li>
+                            <p>.</p>
+                            <li><a href="paginasuaopniao.html">Opinião</a></li>
+                        </ol>
+                    </nav>
+    
+                </section>
+            </header>
+
+
+            
+            <main>
+                <p>Deixe sua opinião sobre aquilo que mais gostou em nosso site. <br> E também aquilo que você acha que podemos melhoerar...</p>
+
+                <section id="formulario">
+                    <form action="" id="opnion">
+                        <div id="name">
+                            <label>Digite seu nome</label>
+                            <textarea name="name_area" id="name_area" cols="30" rows="1"></textarea>    
+                        </div>
+
+                        <div class="escolha">
+                            <label for="">Por qual livro você mais se interessou?</label>
+                            <select class="livro_esc" name="livro_esc" >
+                                <option value="" > Selecione um Livro</option>
+                                <option value="1">O duque e eu</option>
+                                <option value="2">O visconde que me amava</option>
+                                <option value="3">Um perfeito cavalheiro</option>
+                                <option value="4">Os segredos de Colin Bridgerton</option>
+                                <option value="5">Para Sr. Phillip com amor</option>
+                                <option value="6">O conde enfeitiçado</option>
+                                <option value="7">Um beijo inesquecível</option>
+                                <option value="8">A caminho do altar</option>
+                                <option value="9">E viveram felizes para sempre</option>
+                            </select>
+
+                        </div>
+
+                        <div class="escolha">
+                            <label for="" id="irmao_esc">De qual irmão Bridgerton você mais gostou?</label>
+                            <select class="irmao_esc" name="irmao_esc">
+                                <option value="" > Selecione um Irmão Bridgerton</option>
+                                <option value="1">Anthony</option>
+                                <option value="2">Benedict</option>
+                                <option value="3">Colin</option>
+                                <option value="4">Daphne</option>
+                                <option value="5">Eloise</option>
+                                <option value="6">Franscesca</option>
+                                <option value="7">Gregory</option>
+                                <option value="8">Hyacint</option>
+                                
+                            </select>
+
+                        </div>
+
+                        <div id="opini">
+                            <label>Deixe sua opiniao</label>
+                            <textarea name="name_text" id="name_text" cols="30" rows="auto" placeholder="HVgygigi"></textarea>
+                        </div>
+                        
+                        <div class="button">
+                            <a href="/pages/paginasuaopniao.html"> <button onclick="mens_opi()" > Enviar</button></a>
+                        </div>
+                    </form>
+
+                </section>
+            </main>
+
+            <div class="voltar">
+                <a id="home_tag" href="home.html"> <p>Home</p></a>
+                <a id="topo_tag" href="#topo">Topo</a>
+            </div>
+           
+            <footer id="rodape">
+                <!-- Rodapé -->
+                <ol class="link_rodape">
+                    <li>IFSUL de Minas - Campus Passos</li>                  
+                    <li>Trabalho de Desenvolvimento Web</li>                   
+                    <li>Passos-MG</li>
+                    <li id="data"></li>                                                
+                </ol>
+
+                <div class="direitos">
+                    <h5 id="marca">Lucas Gabriel™ </h5>
+                </div>
+            </footer>
+                      
+        </div>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" );
+
+/*Titulo*/
+div#interface header#titulo h1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 50pt;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 20;
+    font-style: oblique;
+    text-align: center;
+}
+
+div#interface{   
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 75%;
+    height: 95%;
+    margin: 0px auto;
+    padding: 70px;
+    box-shadow: 10px 5px 5px black;
+    
+} 
+
+div#interface section#subTitulo div.descricao {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+div#interface section#subTitulo div.descricao p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    color: white;
+    text-align: justify;
+    word-spacing: 0.5pt;
+    line-height: 20pt;
+}
+
+
+
+div#interface section#conteudo div.casal div.nomeCasal h2{
+    font-family: 'Dancing Script', cursive;
+    font-style: oblique;
+    text-align: center;
+    font-size: 35pt;
+    font-weight: 20;
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-shadow: 0px 10px 30px goldenrod;
+}
+
+div#interface section#conteudo div.casal{
+    margin-top: 10%;
+    
+}
+
+div#interface section#conteudo div.casal div.text {
+    margin: 5% 5% 5% 5%;
+}
+div#interface section#conteudo div.casal div.text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    color: white;
+    text-align: justify;
+    word-spacing: 0.5pt;
+    line-height: 20pt;
+}
+

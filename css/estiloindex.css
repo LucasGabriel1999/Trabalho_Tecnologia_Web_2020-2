@@ -1,0 +1,592 @@
+@charset "UTF-8";
+
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" );
+
+
+body{/*Imagem de fundo*/
+    background: url("../images/Finding.jpg")  no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+}
+div#interface{
+    
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 75%;
+    height: 90%;
+    margin: 0px auto;
+    padding: 70px;
+    box-shadow: 10px 5px 5px black;
+} 
+
+/*Configurações de cabeçalho*/
+
+header#titulo{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 25pt;
+    border-bottom: 5px ridge rgb(255, 255, 255);
+    position: relative;
+   
+}
+header#titulo h1{/*Titulo configurações*/
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 200;
+    text-shadow: 0px 10px 30px goldenrod;
+      
+    
+   
+}
+header#titulo h2{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 30pt;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 20;
+    text-shadow: 0px 10px 30px goldenrod;
+    font-style: oblique;
+}
+section#imagens_link{
+    position: relative;
+}
+
+/*Menu*/
+section#secmenu nav#menu ol{
+    list-style: none; 
+    text-align: center;
+    padding-top: 20px; 
+}
+
+section#secmenu nav#menu ol p{
+    display: inline;
+    color: white;
+}
+
+section#secmenu nav#menu li {
+    display: inline-block;
+    padding-right: 10px;
+
+}
+
+section#secmenu nav#menu li a{
+    text-decoration: none;
+    color: white;
+    font-style: normal;  
+    
+}
+
+section#secmenu nav#menu li a:link{
+    
+    font-family: 'Dancing Script', cursive;
+    font-size: 18pt;
+    color: white;
+    font-weight: 200;
+   /*  text-shadow: 0px 10px 30px goldenrod; */
+}
+
+section#secmenu nav#menu li a:hover{
+    font-family: 'Dancing Script', cursive;
+    font-size: 18pt;
+    color: white;
+    font-weight: 200;
+    text-shadow: 0px 5px 20px goldenrod; 
+    font-style:none;   
+    
+}
+
+/*Colun1 Os Bridgertons*/
+nav#fila1 div.colun1{/*Coluna somente*/
+ 
+    display: inline-block;
+    width: 20px;
+    padding-top: 30px;
+    padding-left:0px;
+    padding-bottom: 10px;
+    
+}
+nav#fila1 div.colun1 img{/*Ajuste de estilo das imagens*/
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 10px ridge rgb(255, 255, 255);
+    filter: sepia(90%);filter: sepia(90%);
+    
+    
+}
+nav#fila1 div.colun1 img{/*Psoicionamento da imagem*/
+    margin-left: 0px;/*Posição da imagem na pagina*/
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+    
+} 
+nav#fila1 div.colun1 p{/*posicionamento do texto e caracteristicas*/
+    font-family: 'Cinzel', serif;
+    font-size: 25pt;
+    color: white;
+    padding: 0px 0px 20px 0px; /*Posição do texto na pagina*/
+    text-shadow: 0px 10px 30px goldenrod;
+    white-space: nowrap;
+    
+}
+nav#fila1 div.colun1 p#p1{
+    padding-left: 5px;
+}
+nav#fila1 div.colun1 img:hover{
+    filter: sepia(10%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/* Colun2  Os Livros*/
+nav#fila1 div.colun2{/*Coluna somente*/
+ 
+    display: inline-block;
+    width: 20px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    
+}
+nav#fila1 div.colun2 img{/*Ajuste de estilo das imagens*/
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 10px ridge white;
+    filter: sepia(90%);
+    
+    
+}
+nav#fila1 div.colun2 img{/*Psoicionamento da imagem*/
+    margin-left: 345px;/*Posição da imagem na pagina*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+} 
+nav#fila1 div.colun2 p{/*posicionamento do texto e caracteristicas*/
+    font-family: 'Cinzel', serif;
+    font-size: 25pt;
+    color: white;
+    padding: 0px 0px 25px 420px; /*Posição do texto na pagina*/
+    text-shadow: 0px 10px 30px goldenrod;
+}
+nav#fila1 div.colun2 img:hover{
+    filter: sepia(10%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/* Colun3 Julia Quinn*/
+nav#fila1 div.colun3{/*Coluna somente*/
+ 
+    display: inline-block;
+    width: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    
+}
+nav#fila1 div.colun3 img{/*Ajuste de estilo das imagens*/
+    
+    width: 250px;
+    height: 250px;
+    filter: sepia(90%);
+    border: 10px ridge white;
+    
+    
+}
+nav#fila1 div.colun3 img{/*Psoicionamento da imagem*/
+    margin-left: 690px;/*Posição da imagem na pagina*/
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+} 
+nav#fila1 div.colun3 p{/*posicionamento do texto e caracteristicas*/
+    font-family: 'Cinzel', serif;
+    font-size: 25pt;
+    color: white;
+    padding:  0px 0px 0px 725px; /*Posição do texto na pagina*/
+    text-shadow: 0px 10px 30px goldenrod;
+    white-space: nowrap;
+}
+nav#fila1 div.colun3 img:hover{
+    filter: sepia(10%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+
+
+/* Colun4 Os Casais*/
+nav#fila2 div.colun4{/*Coluna somente*/
+    display: inline-block;
+    width: 20px;
+    padding-top: 30px;
+    padding-left:0px;
+    padding-bottom: 10px;
+    
+}
+nav#fila2 div.colun4 img{/*Ajuste de estilo das imagens*/
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 10px ridge rgb(255, 255, 255);
+    filter: sepia(90%);filter: sepia(90%);
+    
+    
+}
+nav#fila2 div.colun4 img{/*Psoicionamento da imagem*/
+    margin-left: 0px;/*Posição da imagem na pagina*/
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+    
+} 
+nav#fila2 div.colun4 p{/*posicionamento do texto e caracteristicas*/
+    font-family: 'Cinzel', serif;
+    font-size: 25pt;
+    color: white;
+    padding: 0px 0px 25px 50px;
+    text-shadow: 0px 10px 30px goldenrod;
+    white-space: nowrap;
+}
+nav#fila2 div.colun4 p#p1{
+    padding-left: 50px;
+}
+nav#fila2 div.colun4 img:hover{
+    filter: sepia(10%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/* colun5 Londres*/
+nav#fila2 div.colun5{/*Coluna somente*/
+    display: inline-block ;
+    width: 20px;
+    padding-top: 30px;
+    padding-left:0px;
+    padding-bottom: 10px;
+    
+}
+nav#fila2 div.colun5 img{/*Ajuste de estilo das imagens*/
+    
+    width: 250px;
+    height: 250px;
+    border: 10px ridge white;
+    filter: sepia(90%);
+    
+    
+}
+nav#fila2 div.colun5 img{/*Psoicionamento da imagem*/
+    margin-left: 345px;/*Posição da imagem na pagina*/
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+} 
+nav#fila2 div.colun5 p{/*posicionamento do texto e caracteristicas*/
+    font-family: 'Cinzel', serif;
+    font-size: 25pt;
+    color: white;
+    padding: 0px 0px 25px 410px; /*Posição do texto na pagina*/
+    text-shadow: 0px 10px 30px goldenrod;
+    white-space: nowrap;
+}
+nav#fila2  div.colun5 img:hover{
+    filter: sepia(10%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/* Colun6 Adaptação Netflix*/
+nav#fila2 div.colun6{/*Coluna somente*/
+ 
+    display: inline-block;
+    width: 20px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    
+}
+nav#fila2 div.colun6 img{/*Ajuste de estilo das imagens*/
+    position: relative;
+    width: 250px;
+    height: 250px;
+    filter: sepia(90%);
+    border: 10px ridge white;
+    
+    
+}
+nav#fila2 div.colun6 img{/*Psoicionamento da imagem*/
+    margin-left: 690px;/*Posição da imagem na pagina*/
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+} 
+nav#fila2 div.colun6 p{/*posicionamento do texto e caracteristicas*/
+    font-family: 'Cinzel', serif;
+    font-size: 25pt;
+    color: white;
+    padding: 0px 0px 25px 650px; /*Posição do texto na pagina*/
+    text-shadow: 0px 10px 30px goldenrod;
+    white-space: nowrap;
+}
+nav#fila2 div.colun6 img:hover{
+    filter: sepia(10%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+/* Colun7 Cronologia*/
+nav#fila3 div.colun7{/*Coluna somente*/
+    display: inline-block;
+    width: 20px;
+    padding-top: 30px;
+    padding-left:0px;
+    padding-bottom: 10px;
+    
+}
+nav#fila3 div.colun7 img{/*Ajuste de estilo das imagens*/
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 10px ridge rgb(255, 255, 255);
+    filter: sepia(90%);filter: sepia(90%);
+    
+    
+}
+nav#fila3 div.colun7 img{/*Psoicionamento da imagem*/
+    margin-left: 0px;/*Posição da imagem na pagina*/
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+    
+} 
+nav#fila3 div.colun7 p{/*posicionamento do texto e caracteristicas*/
+    font-family: 'Cinzel', serif;
+    font-size: 25pt;
+    color: white;
+    padding: 0px 0px 25px 25px;
+    text-shadow: 0px 10px 30px goldenrod;
+}
+nav#fila3 div.colun7 p#p1{
+    padding-left: 50px;
+}
+nav#fila3 div.colun7 img:hover{
+    filter: sepia(10%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/* Colun8 O século XIX*/
+nav#fila3 div.colun8{/*Coluna somente*/
+ 
+    display: inline-block;
+    width: 20px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    
+}
+nav#fila3 div.colun8 img{/*Ajuste de estilo das imagens*/
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 10px ridge white;
+    filter: sepia(90%);
+    
+    
+}
+nav#fila3 div.colun8 img{/*Psoicionamento da imagem*/
+    margin-left: 345px;/*Posição da imagem na pagina*/
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+} 
+nav#fila3 div.colun8 p{/*posicionamento do texto e caracteristicas*/
+    font-family: 'Cinzel', serif;
+    font-size: 25pt;
+    color: white;
+    padding: 0px 0px 25px 370px; /*Posição do texto na pagina*/
+    text-shadow: 0px 10px 30px goldenrod;
+    white-space: nowrap;
+}
+nav#fila3 div.colun8 img:hover{
+    filter: sepia(10%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/* Colun9 Curiosidades*/
+nav#fila3 div.colun9{/*Coluna somente*/
+ 
+    display: inline-block;
+    width: 20px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    
+}
+nav#fila3 div.colun9 img{/*Ajuste de estilo das imagens*/
+    position: relative;
+    width: 250px;
+    height: 250px;
+    filter: sepia(90%);
+    border: 10px ridge white;
+    
+    
+}
+nav#fila3 div.colun9 img{/*Psoicionamento da imagem*/
+    margin-left: 690px;/*Posição da imagem na pagina*/
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+} 
+nav#fila3 div.colun9 p{/*posicionamento do texto e caracteristicas*/
+    font-family: 'Cinzel', serif;
+    font-size: 25pt;
+    color: white;
+    padding: 0px 0px 25px 730px; /*Posição do texto na pagina*/
+    text-shadow: 0px 10px 30px goldenrod;
+    white-space: nowrap;
+}
+nav#fila3 div.colun9 img:hover{
+    filter: sepia(10%);
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+}
+
+/* Section frase do dia  */
+section#frase_dia h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 30pt;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 20;
+    text-shadow: 0px 10px 30px goldenrod;
+    
+}
+
+section#frase_dia{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    /* border-top: 5px ridge rgb(255, 255, 255); */
+}
+
+section#frase_dia p#frase{
+    color: white;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+    word-spacing: 0.5pt;
+    line-height: 20pt ;
+    text-align: center;
+
+}
+
+div#interface div.voltar{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: calc((500px + 5%) / 2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 500px;
+    height: 80px;
+
+   
+    
+}
+div#interface div.voltar a#home_tag , a#topo_tag{
+    text-decoration: none;
+}
+
+div#interface div.voltar a#home_tag p{
+    width: 150px;
+    height: 50px;
+    
+
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 22pt;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 200;
+
+   
+}
+
+div#interface div.voltar a#home_tag:hover{
+    cursor: pointer;
+    text-shadow: 0px 10px 30px goldenrod;
+    
+}
+
+div#interface div.voltar a#topo_tag{
+    width: 150px;
+    height: 50px;
+    
+
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 22pt;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 200;
+    
+}
+
+div#interface div.voltar a#topo_tag:hover{
+    cursor: pointer;
+    text-shadow: 0px 10px 30px goldenrod;
+}
+
+/*Rodapé INICIO*/
+footer#rodape{
+    border-top: 5px ridge white;
+    text-align: center;
+    height: 200px;
+
+}
+footer#rodape ol.link_rodape{
+    width: 90%;
+    list-style-type: none;
+    margin-top: 50px;
+}
+footer#rodape ol.link_rodape li{
+    text-align: center;
+    padding-top: 10px;
+    font:12pt Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(243, 146, 0);
+    font-style: normal;
+}
+
+footer#rodape div.direitos{ 
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18pt;
+    letter-spacing: 7pt;
+    color: rgb(243, 146, 0);
+    font-style: normal;
+    text-align: center;
+}
+
+/*Rodapé FIM*/

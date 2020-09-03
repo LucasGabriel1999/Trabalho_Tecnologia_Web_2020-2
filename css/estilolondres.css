@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*fontes*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" );
+
+
+header#titulo  h2{
+    font-size: 50pt;
+}
+
+div#interface main div{
+   margin: 5% 5% 0% 5%;
+}
+
+div#interface main div.content img{
+    width: 250px;
+    height: 250px;
+    border: 10px ridge rgb(255, 255, 255);
+}
+
+div#interface main div.content{
+    display: inline-flex;
+}
+
+div#interface main div.content p{
+    color: white;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    padding-left: 30px;
+    margin-top: 50px;
+   
+}
+
+div#interface main div.content-2 p{
+    color: white;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-top: 10px;
+   
+}

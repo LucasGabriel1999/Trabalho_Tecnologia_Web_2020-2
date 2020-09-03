@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" );
+
+body div#interface header h1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 40pt;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 20;
+    font-style: oblique;
+    text-align: center;
+}
+
+body div#interface main {
+    margin: 20px;
+}
+
+body div#interface main p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    color: white;
+    text-align: center;
+    word-spacing: 0.5pt;
+}
+
+body div#interface main section#formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body div#interface main section#formulario form div#name{
+    margin-top: 20px;
+    
+}
+
+body div#interface main section#formulario form div#name label{
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+}
+
+
+body div#interface main section#formulario form div#name textarea{
+    margin-top: 10px;
+    width: 500px;
+    height: 25px;
+
+    background-color: rgb(173, 173, 173);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: black;
+    
+
+    text-align: center;
+    box-shadow: 3px 3px 3px black;
+    border: none;
+}
+
+body div#interface main section#formulario form div#name textarea:hover{
+    cursor: pointer;
+}
+
+body div#interface main section#formulario form div#name textarea:focus{
+    border: none;
+    outline: 0;
+    box-shadow: 3px 3px 3px rgba(218, 165, 32, 0.3);
+}
+
+/* select */
+body div#interface main section#formulario form div.escolha{
+    margin-top: 50px;
+}
+
+body div#interface main section#formulario form div.escolha label{
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt
+}
+
+body div#interface main section#formulario form div.escolha select{
+    margin-top: 10px;
+    
+    background-color: rgb(173, 173, 173);
+
+    width: 300px;
+    height: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: black;
+
+    box-shadow: 3px 3px 3px black;
+    border: none;
+}
+
+body div#interface main section#formulario form div.escolha select:hover{
+    cursor: pointer;
+}
+
+body div#interface main section#formulario form div.escolha select:focus{
+    border: none;
+    outline: 0;
+    box-shadow: 3px 3px 3px rgba(218, 165, 32, 0.3);
+}
+
+body div#interface main section#formulario form div.escolha select.irmao_esc{
+    margin-left: 20px;/* Ajusta só o segundo select */
+}
+
+/* Opiniao */
+
+body div#interface main section#formulario form div#opini{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+}
+
+body div#interface main section#formulario form div#opini label{
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+}
+
+
+body div#interface main section#formulario form div#opini textarea{
+    padding: 3% 3% 3% 3%;
+
+    margin-top: 10px;
+    width: 700px;
+    height: 250px;
+    
+    background-color: rgb(173, 173, 173);
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+    box-shadow: 3px 3px 3px black;
+    border: none;
+}
+
+body div#interface main section#formulario form div#opini textarea:hover{
+    cursor: pointer;
+}
+
+body div#interface main section#formulario form div#opini textarea:focus{
+    border: none;
+    outline: 0;
+    box-shadow: 3px 3px 3px rgba(218, 165, 32, 0.3);
+}
+
+body div#interface main section#formulario form div.button{
+
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body div#interface main section#formulario form div.button button{
+    width: 300px;
+    height: 60px;
+
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-size: 25pt;
+    
+    background-color: rgba(243, 146, 0, 0.7);
+
+    border: none;
+    box-shadow:  1px 1px 3px white;
+}
+
+body div#interface main section#formulario form div.button button:hover{
+    cursor: pointer;
+    box-shadow:  2px 2px 3px white;
+}

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/*fontes*/
+@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" );
+
+
+header#titulo  h2{
+    font-size: 30pt;
+}
+
+main div.content{
+    margin: 5% 5%;
+}
+
+main div.content p{
+    color: white;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin-top: 0px;
+}
+
+main div.content h2{
+    font-family: 'Dancing Script', cursive;
+    font-style: oblique;
+    text-align: center;
+    font-size: 35pt;
+    font-weight: 20;
+    color: white;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-shadow: 0px 10px 30px goldenrod;
+    margin-top: 100px;
+}
+
+div#interface main div.content div.atores div#imagem{
+    width: 300px;
+}
+
+div#interface main div.content div.atores div#imagem img{
+    margin-left: calc((300px + 100%) / 2);
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border: 10px ridge rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.1);
+}
+
+div#interface main div.content div.atores div#imagem p{
+    margin-left: calc((300px + 170%) / 2);
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+div#interface main div.content div.atores div#imagem p#WF{
+    margin-left: calc((300px + 140%) / 2);
+    margin-top: 20px;
+}
+
+div#interface main div.content div.atores p{
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+
